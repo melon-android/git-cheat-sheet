@@ -1,4 +1,4 @@
-.jumbotron {
+.bg-pattern {
 	background: url("D:/new-dev/repos/git-cheat-sheet/res/background-pattern.png");
 	background-repeat: repeat;
 }
@@ -8,8 +8,6 @@
 }
 
 .footer {
-	background: url("D:/new-dev/repos/git-cheat-sheet/res/background-pattern.png");
-	background-repeat: repeat;
 	margin-top:64px;
 	padding-bottom:10px; 
 	padding-top:20px;
