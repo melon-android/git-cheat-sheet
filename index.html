@@ -11,9 +11,15 @@
     .responsive-font-size {
 		font-size: 20px;
 	}
+	.m-y-3 {
+		margin-bottom: 5px;
+	}
 	@media screen and (min-width: 768px) {
 		.responsive-font-size {
 			font-size: 36px;
+		}
+		.m-y-3 {
+			margin-bottom: 10px;
 		}
 	}
   </style>
@@ -21,7 +27,7 @@
 <body>
 
 <div class="jumbotron text-center">
-  <img style="width:10%; max-width:90px;" src="res/git-logo.png">
+  <img style="width:10%; max-width:90px; min-width:40px" src="res/git-logo.png">
   <h1>a Git Cheat Sheet</h1>
   <p>optimized for printing</p>
 </div>
@@ -40,21 +46,18 @@
 					<h3>Unified interface in all environments</h3>
 					<p>tools come and go; the CLI will be there, on every machine that can run Git</p>
 	    </div>
-  <div class="row">
-	<div class="col-sm-1 col-xs-0">
-	</div>
-    <div class="col-sm-5 col-xs-6">
+  <div class="row m-b-3">
+    <div class="col-sm-offset-1 col-sm-5 col-xs-6">
         <h1 class="responsive-font-size"><b>Commands</b></h1>
 		<br>
 	    <div class="row">
 			<div class="col-md-6">
-				<a type="button" role="button" class="btn btn-info" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-commands.pdf">PDF</a>
+				<a type="button" role="button" class="btn btn-info m-y-3" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-commands.pdf">PDF</a>
 			</div>
 			<div class="col-md-6">
-				<a type="button" role="button" class="btn btn-info" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-commands.docx">DOCX</a>
+				<a type="button" role="button" class="btn btn-info m-y-3" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-commands.docx">DOCX</a>
 			</div>
 		</div>
-		<br>
 		<a href="https://melon-android.github.io/git-cheat-sheet/git-commands.pdf">
 			<img src="res/commands.png" alt="Git Commands" style="width:100%">
 		</a>
@@ -64,13 +67,12 @@
 		<br>
         <div class="row">
 			<div class="col-md-6">
-				<a type="button" class="btn btn-info" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-terminology.pdf">PDF</a>
+				<a type="button" class="btn btn-info m-y-3" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-terminology.pdf">PDF</a>
 			</div>
 			<div class="col-md-6">
-				<a type="button" class="btn btn-info" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-terminology.docx">DOCX</a>
+				<a type="button" class="btn btn-info m-y-3" style="width:100%" href="https://github.com/melon-android/git-cheat-sheet/raw/master/git-terminology.docx">DOCX</a>
 			</div>
 		</div>
-		<br>
 		<a href="https://melon-android.github.io/git-cheat-sheet/git-terminology.pdf"">
 			<img src="res/terminology.png" alt="Git Terminology" style="width:100%" >
 		</a>
